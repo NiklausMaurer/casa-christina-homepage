@@ -8,8 +8,8 @@ jobs:
     container:
       image: node:18.11
       volumes:
-        - dist:~/.vitepress/dist
-        - temp:~/.vitepress/temp
+        - dist:/__w/cc-homepage/cc-homepage/home/.vitepress/dist
+        - temp:/__w/cc-homepage/cc-homepage/home/.vitepress/temp
     steps:
       - name: Checkout
         uses: actions/checkout@v2
