@@ -37,9 +37,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "home:dev": "vitepress dev home",
-    "home:build": "vitepress build home",
-    "home:preview": "vitepress preview home"
+    "dev": "vitepress dev home",
+    "build": "vitepress build home",
+    "preview": "vitepress preview home"
   },
   "repository": {
     "type": "git",
