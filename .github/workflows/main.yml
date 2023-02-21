@@ -15,6 +15,5 @@ jobs:
         uses: actions/checkout@v2
       - name: Install dependencies
         run: npm ci
-      - name: Prepare Build
       - name: Build
         run: npm run build
