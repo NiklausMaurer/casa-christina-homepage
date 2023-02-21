@@ -13,4 +13,5 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build
-        run: sudo npm run build
+      - run: mkdir -p .vitepress/dist
+      - run: npm run build
