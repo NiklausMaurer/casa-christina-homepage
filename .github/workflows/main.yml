@@ -1,0 +1,12 @@
+name: Main
+on:
+  push:
+    branches: [ main ]
+jobs:
+  container-test-job:
+    runs-on: ubuntu-latest
+    container:
+      image: node:18.11
+    steps:
+      - name: Build homepage
+        run: npm run build
