@@ -8,4 +8,4 @@ jobs:
     container: node:18.11
     steps:
       - name: Build homepage
-        run: ls -la
+        run: ls -la ..
