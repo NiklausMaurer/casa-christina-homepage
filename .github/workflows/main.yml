@@ -5,7 +5,10 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container: node:18.11
+    container:
+      image: node:18.11
+      volumes:
+        - ${PWD}:/cc-homepage
     steps:
       - name: Build homepage
-        run: ls -la ..
+        run: ls -la
