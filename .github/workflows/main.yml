@@ -25,4 +25,4 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            AZURE_STORAGE_CONNECTION_STRING=${{ secrets.AZURE_STORAGE_CONNECTION_STRING }} ./ci/deploy.sh
+            AZURE_STORAGE_CONNECTION_STRING=experiment ./ci/deploy.sh
