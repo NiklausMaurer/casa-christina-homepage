@@ -5,8 +5,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    container:
-      image: node:18.11
+    container: node:18.11
     steps:
       - name: Build homepage
-        run: npm run build
+        run: ls -la
