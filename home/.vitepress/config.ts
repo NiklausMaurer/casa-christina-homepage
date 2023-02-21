@@ -6,7 +6,6 @@ export default defineConfig({
     description: 'Ferien in Moraira, Spanien',
     themeConfig: {
         nav: [
-            { text: 'Home', link: '/' },
             { text: 'Anfahrt', link: '/arrival' },
             { text: 'Buchen', link: '/booking' }
         ]
