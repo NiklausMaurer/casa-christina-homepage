@@ -7,8 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: node:18.11
-      volumes:
-        - ${PWD}:/cc-homepage
     steps:
-      - name: Build homepage
-        run: ls -la
+      - name: Clone
+        run: git clone --depth 1 git@github.com:NiklausMaurer/cc-homepage.git .
+      - name: Build
+        run: npm run build
