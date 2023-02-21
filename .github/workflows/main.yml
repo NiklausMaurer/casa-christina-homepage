@@ -3,7 +3,7 @@ on:
   push:
     branches: [ master ]
 jobs:
-  container-test-job:
+  build:
     runs-on: ubuntu-latest
     container:
       image: node:18.11
