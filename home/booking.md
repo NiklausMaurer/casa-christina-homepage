@@ -1,5 +1,5 @@
 <script setup>
-import OccupancyViewer from './components/OccupancyViewer.vue'
+import OccupancyView from './components/OccupancyView.vue'
 </script>
 
 # Belegung
