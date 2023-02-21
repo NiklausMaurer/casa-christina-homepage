@@ -4,4 +4,4 @@ import OccupancyView from './components/OccupancyView.vue'
 
 # Belegung
 
-<OccupancyViewer />
+<OccupancyView />
