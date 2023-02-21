@@ -20,12 +20,5 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az storage blob delete-batch \
-            --account-name casachristinaproduction \
-            --source '$web' \
-            --connection-string="${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}" \
-            az storage blob upload-batch \
-            --account-name casachristinaproduction \
-            --destination '$web' \
-            --source home/.vitepress/dist \
-            --connection-string="${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}"
+            az storage blob delete-batch --account-name casachristinaproduction --source '$web' --connection-string="${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}"
+            az storage blob upload-batch --account-name casachristinaproduction --source home/.vitepress/dist --destination '$web' --connection-string="${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}"
