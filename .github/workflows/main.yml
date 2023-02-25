@@ -15,10 +15,10 @@ jobs:
       - name: Verify
         run: npm run verify
       - name: Build
-        run: npm run build
+        run: npm run generate
       - name: Deploy
         uses: azure/CLI@v1
         with:
           inlineScript: |
             az storage blob delete-batch --account-name casachristinaproduction --source '$web' --connection-string="${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}"
-            az storage blob upload-batch --account-name casachristinaproduction --source home/.vitepress/dist --destination '$web' --connection-string="${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}"
+            az storage blob upload-batch --account-name casachristinaproduction --source .output/public --destination '$web' --connection-string="${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}"
