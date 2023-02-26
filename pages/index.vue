@@ -1,7 +1,40 @@
 <script setup lang="ts"></script>
 
 <template>
-  <h1>Home</h1>
+  <div class="main-container">
+    <div class="header-container">
+      <div class="title"><h1>Home</h1></div>
+      <div class="banner"></div>
+    </div>
+    <div class="content-container">
+      <div class="content-section">
+        <h2>Anreise</h2>
+      </div>
+      <div class="content-section">
+        <h2>Buchung</h2>
+      </div>
+    </div>
+  </div>
 </template>
 
-<style scoped lang="scss"></style>
+<style scoped lang="scss">
+@import '/assets/styles/colors';
+
+.main-container {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    color: $primary;
+  }
+}
+.header-container {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  margin: 0 !important;
+}
+</style>
