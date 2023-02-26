@@ -6,6 +6,11 @@
     "extends": [
         "plugin:nuxt/recommended"
     ],
+    "plugins": [
+        "@typescript-eslint",
+        "prettier",
+        "import"
+    ],
     "overrides": [
     ],
     "parserOptions": {
