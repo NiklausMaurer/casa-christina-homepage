@@ -8,9 +8,9 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "lint": "eslint '**/*.{ts,tsx}'",
+    "lint": "eslint .",
     "check-types": "npx vue-tsc --noEmit",
-    "fix": "eslint '**/*.{ts,tsx}' --fix"
+    "fix": "eslint . --fix"
   },
   "devDependencies": {
     "@types/node": "^18.14.1",
