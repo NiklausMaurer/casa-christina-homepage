@@ -4,7 +4,10 @@
         "es2021": true
     },
     "extends": [
-        "plugin:nuxt/recommended"
+        "eslint:recommended",
+        "plugin:@typescript-eslint/recommended",
+        "plugin:nuxt/recommended",
+        "prettier"
     ],
     "plugins": [
         "@typescript-eslint",
@@ -12,6 +15,9 @@
         "import"
     ],
     "overrides": [
+        {
+            "files": ["*.vue","*.ts", "*.js", "*.mjs"]
+        }
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -19,5 +25,17 @@
         "project": ["tsconfig.json"]
     },
     "rules": {
+        "prettier/prettier": "error",
+        "import/order": [
+            "error",
+            {
+                "groups": ["builtin", "external", "internal", "parent", "sibling", "index"],
+                "newlines-between": "never"
+            }
+        ]
+    },
+    "ignorePatterns": ["node_modules", "dist", "coverage"],
+    "settings": {
+        "import/internal-regex": "^@/"
     }
 }
