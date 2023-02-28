@@ -1,10 +1,14 @@
-<script setup lang="ts"></script>
+<script lang="js"></script>
 
 <template>
   <div class="main-container">
     <div class="header-container">
       <div class="title"><h1>Home</h1></div>
-      <div class="banner"></div>
+      <div class="banner">
+        <client-only>
+          <carousel />
+        </client-only>
+      </div>
     </div>
     <div class="content-container">
       <div class="content-section">
