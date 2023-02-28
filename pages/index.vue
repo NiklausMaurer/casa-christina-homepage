@@ -19,6 +19,7 @@
       </div>
       <div class="content-section">
         <h2>Buchung</h2>
+        <booking-calendar />
       </div>
     </div>
   </div>
@@ -55,5 +56,9 @@
   margin: auto;
   width: 100%;
   max-width: 1000px;
+}
+
+.content-section {
+  width: 100%;
 }
 </style>
