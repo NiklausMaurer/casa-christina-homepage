@@ -8,11 +8,15 @@
       </div>
       <div class="banner">
         <client-only>
-          <carousel />
+          <carousel-section />
         </client-only>
       </div>
     </div>
     <div class="content-container">
+      <div class="content-section">
+        <h2>Ausstattungen</h2>
+        <facilities-section />
+      </div>
       <div class="content-section">
         <h2>Buchung</h2>
         <booking-calendar />

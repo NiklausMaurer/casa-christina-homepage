@@ -1,0 +1,25 @@
+<script setup lang="ts">
+import { defineProps } from 'vue'
+
+const props = defineProps({
+  icon: { type: String, required: true },
+})
+</script>
+
+<template>
+  <div class="container">
+    <span class="material-symbols-outlined">{{ props.icon }}</span
+    ><span><slot /></span>
+  </div>
+</template>
+
+<style scoped lang="scss">
+@import '/assets/styles/values';
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: $spacing-xs;
+}
+</style>

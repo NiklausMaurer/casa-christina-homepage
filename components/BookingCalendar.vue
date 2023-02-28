@@ -4,22 +4,22 @@
   <div class="container">
     <!--suppress HtmlDeprecatedAttribute -->
     <iframe
-      class="embedded-calendar"
       id="embedded-calendar-3-2"
+      class="embedded-calendar"
       src="https://www.availcalendar.com/print/19067"
       scrolling="no"
     ></iframe>
     <!--suppress HtmlDeprecatedAttribute -->
     <iframe
-      class="embedded-calendar"
       id="embedded-calendar-2-2"
+      class="embedded-calendar"
       src="https://www.availcalendar.com/print/19067?mode=2"
       scrolling="no"
     ></iframe>
     <!--suppress HtmlDeprecatedAttribute -->
     <iframe
-      class="embedded-calendar"
       id="embedded-calendar-1-1"
+      class="embedded-calendar"
       src="https://www.availcalendar.com/print/19067?mode=5"
       scrolling="no"
     ></iframe>
