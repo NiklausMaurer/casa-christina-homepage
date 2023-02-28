@@ -14,12 +14,12 @@
     </div>
     <div class="content-container">
       <div class="content-section">
-        <h2>Anreise</h2>
-        <location-map />
-      </div>
-      <div class="content-section">
         <h2>Buchung</h2>
         <booking-calendar />
+      </div>
+      <div class="content-section">
+        <h2>Anreise</h2>
+        <location-map />
       </div>
     </div>
   </div>
@@ -34,6 +34,7 @@
   display: flex;
   flex-direction: column;
   gap: $spacing-s;
+  padding-bottom: $spacing-l;
 
   h1 {
     color: $primary;
