@@ -54,7 +54,8 @@
 }
 
 .content-container {
-  max-width: 2000px;
   margin: auto;
+  width: 100%;
+  max-width: 1000px;
 }
 </style>
