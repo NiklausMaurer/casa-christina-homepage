@@ -3,7 +3,9 @@
 <template>
   <div class="main-container">
     <div class="header-container">
-      <div class="title"><h1>Home</h1></div>
+      <div class="title-container">
+        <img class="title" src="/images/title.png" alt="Casa Christina" />
+      </div>
       <div class="banner">
         <client-only>
           <carousel />
@@ -26,11 +28,13 @@
 
 <style scoped lang="scss">
 @import '/assets/styles/colors';
+@import '/assets/styles/values';
 
 .main-container {
   margin: 0;
   display: flex;
   flex-direction: column;
+  gap: $spacing-s;
 
   h1 {
     color: $primary;
@@ -39,6 +43,14 @@
 .header-container {
   display: flex;
   flex-direction: column;
+
+  .title-container {
+    margin: $spacing-s auto;
+
+    .title {
+      height: 15vh;
+    }
+  }
 }
 
 body {
