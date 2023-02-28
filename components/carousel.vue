@@ -10,7 +10,6 @@ import '@splidejs/vue-splide/css'
       perPage: 3,
       focus: 'center',
     }"
-    aria-label="Vue Splide Example"
   >
     <SplideSlide>
       <img src="/images/carousel/pool-1.png" alt="Pool 1" />
