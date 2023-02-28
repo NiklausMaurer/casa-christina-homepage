@@ -7,7 +7,7 @@ const props = defineProps({
 </script>
 
 <template>
-  <div class="container">
+  <div class="entry-container">
     <span class="material-symbols-outlined">{{ props.icon }}</span
     ><span><slot /></span>
   </div>
@@ -16,10 +16,15 @@ const props = defineProps({
 <style scoped lang="scss">
 @import '/assets/styles/values';
 
-.container {
+.material-symbols-outlined {
+  font-size: 35px;
+}
+
+.entry-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   gap: $spacing-xs;
+  width: 800px;
 }
 </style>

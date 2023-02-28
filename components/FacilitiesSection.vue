@@ -2,10 +2,16 @@
 
 <template>
   <div class="container">
-    <div class="entry">
-      <facilities-entry icon="pool">Swimming Pool</facilities-entry>
-      <facilities-entry icon="shower">Duschen</facilities-entry>
-    </div>
+    <facilities-entry icon="pool">Swimming Pool</facilities-entry>
+    <facilities-entry icon="shower">Aussendusche</facilities-entry>
+    <facilities-entry icon="bathroom">Zwei Badezimmer</facilities-entry>
+    <facilities-entry icon="fireplace">Kamin</facilities-entry>
+    <facilities-entry icon="outdoor_grill">Grill</facilities-entry>
+    <facilities-entry icon="deck">Aussensitzplatz</facilities-entry>
+    <facilities-entry icon="balcony">Grosser Balkon</facilities-entry>
+    <facilities-entry icon="beach_access"
+      >Sonnenschirme und Lieben beim Pool</facilities-entry
+    >
   </div>
 </template>
 
@@ -15,6 +21,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  align-items: baseline;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: center;
 }
 </style>
