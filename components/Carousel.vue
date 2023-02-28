@@ -7,8 +7,22 @@ import '@splidejs/vue-splide/css'
   <Splide
     :options="{
       type: 'loop',
-      perPage: 3,
+      perPage: 5,
       focus: 'center',
+      breakpoints: {
+        1976: {
+          perPage: 4,
+        },
+        1482: {
+          perPage: 3,
+        },
+        988: {
+          perPage: 2,
+        },
+        494: {
+          perPage: 1,
+        },
+      },
     }"
   >
     <SplideSlide>
