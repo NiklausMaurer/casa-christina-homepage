@@ -31,16 +31,19 @@
 @import '/assets/styles/values';
 
 .main-container {
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-  gap: $spacing-s;
+  display: grid;
+  grid-template-columns:
+    calc((100vw - $content-width) / 2) minmax(auto, $content-width)
+    calc((100vw - $content-width) / 2);
 
   h1 {
     color: $primary;
   }
 }
 .header-container {
+  grid-column-start: 1;
+  grid-column-end: 4;
+
   display: flex;
   flex-direction: column;
 
@@ -54,7 +57,13 @@
 }
 
 .content-container {
-  max-width: 2000px;
+  grid-column-start: 2;
+  grid-column-end: 2;
   margin: auto;
+  width: 100%;
+}
+
+.content-section {
+  width: 100%;
 }
 </style>
