@@ -15,9 +15,7 @@
     <div class="content-container">
       <div class="content-section">
         <h2>Anreise</h2>
-        <client-only>
-          <location-map />
-        </client-only>
+        <location-map />
       </div>
       <div class="content-section">
         <h2>Buchung</h2>
