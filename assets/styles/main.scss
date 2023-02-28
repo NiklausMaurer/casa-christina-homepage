@@ -1,8 +1,14 @@
 @import '/assets/styles/colors';
+@import '/assets/styles/values';
 
 body {
     margin: 0 !important;
     background-color: $off-white;
     background-image: url('/public/images/background-tile-xs-bright-contrast.png');
     background-repeat: repeat;
+}
+
+h2 {
+    text-align: center;
+    margin: $spacing-s
 }

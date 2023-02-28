@@ -45,15 +45,16 @@
   flex-direction: column;
 
   .title-container {
-    margin: $spacing-s auto;
+    margin: $spacing-l auto;
 
     .title {
-      height: 15vh;
+      height: 120px;
     }
   }
 }
 
-body {
-  margin: 0 !important;
+.content-container {
+  max-width: 2000px;
+  margin: auto;
 }
 </style>
