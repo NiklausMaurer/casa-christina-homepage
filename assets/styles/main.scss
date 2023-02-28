@@ -6,9 +6,12 @@ body {
     background-color: $off-white;
     background-image: url('/images/background-tile-small-bright-contrast.png');
     background-repeat: repeat;
+    font-family: "Helvetica Neue", sans-serif;
 }
 
 h2 {
     text-align: center;
-    margin: $spacing-s
+    margin: $spacing-s;
+    font-size: 40px;
+    font-weight: lighter;
 }
