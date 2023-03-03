@@ -4,7 +4,11 @@
   <div class="main-container">
     <div class="header-container">
       <div class="title-container">
-        <img class="title" src="/images/title.png" alt="Casa Christina" />
+        <nuxt-picture
+          class="title"
+          src="/images/title.png"
+          alt="Casa Christina"
+        />
       </div>
       <div class="banner">
         <client-only>
