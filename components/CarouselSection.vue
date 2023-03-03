@@ -26,16 +26,19 @@ import '@splidejs/vue-splide/css'
     }"
   >
     <SplideSlide>
-      <img src="/images/carousel/pool-1.png" alt="Pool 1" />
+      <nuxt-picture src="/images/carousel/pool-1.png" alt="Pool 1" />
     </SplideSlide>
     <SplideSlide>
-      <img src="/images/carousel/pool-2.png" alt="Pool 2" />
+      <nuxt-picture src="/images/carousel/pool-2.png" alt="Pool 2" />
     </SplideSlide>
     <SplideSlide>
-      <img src="/images/carousel/pool-3.png" alt="Pool 3" />
+      <nuxt-picture src="/images/carousel/pool-3.png" alt="Pool 3" />
     </SplideSlide>
     <SplideSlide>
-      <img src="/images/carousel/kitchen-outside.png" alt="Kitchen outside" />
+      <nuxt-picture
+        src="/images/carousel/kitchen-outside.png"
+        alt="Kitchen outside"
+      />
     </SplideSlide>
   </Splide>
 </template>
