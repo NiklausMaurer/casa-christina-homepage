@@ -1,7 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
-  modules: ['@nuxt/image-edge'],
   css: ['~/assets/styles/main.scss'],
   app: {
     head: {
