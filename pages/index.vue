@@ -4,7 +4,7 @@
   <div class="main-container">
     <div class="header-container">
       <div class="title-container">
-        <img class="title" src="/images/title.png" alt="Casa Christina" />
+        <h1>Casa Christina</h1>
       </div>
       <div class="banner">
         <client-only>
@@ -39,10 +39,6 @@
   flex-direction: column;
   gap: $spacing-s;
   padding-bottom: $spacing-l;
-
-  h1 {
-    color: $primary;
-  }
 }
 .header-container {
   display: flex;

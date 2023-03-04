@@ -6,6 +6,12 @@ body {
     background-color: $off-white;
     font-family: "Helvetica Neue", sans-serif;
 }
+h1 {
+    text-align: center;
+    margin: $spacing-s;
+    font-size: 80px;
+    font-weight: lighter;
+}
 
 h2 {
     text-align: center;
