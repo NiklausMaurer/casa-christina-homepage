@@ -26,16 +26,40 @@ import '@splidejs/vue-splide/css'
     }"
   >
     <SplideSlide>
-      <img src="/images/carousel/pool-1.png" alt="Pool 1" />
+      <NuxtImg
+        provider="cloudinary"
+        src="/carousel/pool-1_the4xf.png"
+        width="494"
+        height="684"
+        alt="Pool 1"
+      />
     </SplideSlide>
     <SplideSlide>
-      <img src="/images/carousel/pool-2.png" alt="Pool 2" />
+      <NuxtImg
+        provider="cloudinary"
+        src="/carousel/pool-2_olkvet.png"
+        width="494"
+        height="684"
+        alt="Pool 2"
+      />
     </SplideSlide>
     <SplideSlide>
-      <img src="/images/carousel/pool-3.png" alt="Pool 3" />
+      <NuxtImg
+        provider="cloudinary"
+        src="/carousel/pool-3_huzpef.png"
+        width="494"
+        height="684"
+        alt="Pool 3"
+      />
     </SplideSlide>
     <SplideSlide>
-      <img src="/images/carousel/kitchen-outside.png" alt="Kitchen outside" />
+      <NuxtImg
+        provider="cloudinary"
+        src="/carousel/kitchen-outside_oue4ze"
+        width="494"
+        height="684"
+        alt="Kitchen Outside"
+      />
     </SplideSlide>
   </Splide>
 </template>

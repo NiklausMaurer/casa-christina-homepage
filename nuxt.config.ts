@@ -1,6 +1,8 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 import { defineNuxtConfig } from 'nuxt/config'
-export default defineNuxtConfig({
+
+const nuxtConfig = defineNuxtConfig({
+  modules: ['@nuxt/image-edge'],
   css: ['~/assets/styles/main.scss'],
   app: {
     head: {
@@ -36,3 +38,17 @@ export default defineNuxtConfig({
     },
   },
 })
+
+const additionalConfig = {
+  image: {
+    cloudinary: {
+      baseURL:
+        'https://res.cloudinary.com/dyh3pomep/image/upload/spanienferien.eu',
+    },
+  },
+}
+
+export default {
+  ...nuxtConfig,
+  ...additionalConfig,
+}
