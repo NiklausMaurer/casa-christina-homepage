@@ -15,7 +15,6 @@
     <div class="content-container">
       <div class="content-section">
         <h2>Ausstattungen</h2>
-        <facilities-section />
       </div>
       <div class="content-section">
         <h2>Buchung</h2>
