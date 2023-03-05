@@ -1,11 +1,7 @@
-<script setup lang="ts">
-import { useBookingCalendar } from '../composables/bookingCalendar'
-
-const bookingCalendarUse = useBookingCalendar(2023, 3)
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <booking-calendar :booking-calendar-use="bookingCalendarUse" />
+  <booking-calendar year="2023" month="3" />
 </template>
 
 <style scoped lang="scss"></style>

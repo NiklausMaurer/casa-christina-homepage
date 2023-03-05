@@ -4,14 +4,14 @@ enum ReservationState {
   Free,
 }
 
-export interface BookingCalendarUse {
+export interface BookingCalendarBehavior {
   days: { day: integer; occupation: ReservationState }[]
 }
 
-export const useBookingCalendar = (
+export const bookingCalendarBehavior = (
   year: integer,
   month: integer
-): BookingCalendarUse => {
+): BookingCalendarBehavior => {
   const daysInMonth = (year: integer, month: integer): integer => {
     return new Date(year, month, 0).getDate()
   }

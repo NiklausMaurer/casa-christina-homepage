@@ -1,14 +1,18 @@
 <script setup lang="ts">
-import { BookingCalendarUse } from '../composables/bookingCalendar'
+import { integer } from 'vscode-languageserver-types'
+import { bookingCalendarBehavior } from '../composables/bookingCalendar.behavior'
 
 const props = defineProps<{
-  bookingCalendarUse: BookingCalendarUse
+  year: integer
+  month: integer
 }>()
+
+const bookingCalendar = bookingCalendarBehavior(props.year, props.month)
 </script>
 
 <template>
   <ul>
-    <li v-for="day in props.bookingCalendarUse?.days" :key="day">{{ day }}</li>
+    <li v-for="day in bookingCalendar.days" :key="day">{{ day }}</li>
   </ul>
 </template>
 
