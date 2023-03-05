@@ -27,6 +27,7 @@
     "vue-tsc": "^1.2.0"
   },
   "dependencies": {
-    "@splidejs/vue-splide": "^0.6.12"
+    "@splidejs/vue-splide": "^0.6.12",
+    "nuxt-icons": "^3.1.0"
   }
 }

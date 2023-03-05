@@ -14,7 +14,8 @@
     </div>
     <div class="content-container">
       <div class="content-section">
-        <h2>Ausstattungen</h2>
+        <h2>Ausstattung</h2>
+        <FacilitiesSection />
       </div>
       <div class="content-section">
         <h2>Buchung</h2>
