@@ -19,7 +19,7 @@
       </div>
       <div class="content-section">
         <h2>Buchung</h2>
-        <booking-calendar />
+        <old-booking-calendar />
       </div>
       <div class="content-section">
         <h2>Anreise</h2>
