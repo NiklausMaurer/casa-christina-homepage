@@ -19,7 +19,7 @@ const svgName = `${props.icon}-svgrepo-com`
   height: 2em;
   width: 2em;
 
-  :deep svg {
+  :deep(svg) {
     height: 2em;
     width: 2em;
   }
