@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { availabilityCalendarBehavior } from '../composables/availabilityCalendar.behavior'
+import { availabilityCalendarBehavior } from '../composables/AvailabilityCalendar.behavior'
 import { Reservation } from '../composables/Reservation'
 
 const props = defineProps<{
