@@ -13,20 +13,20 @@ export const availabilityCalendarBehavior = (
   reservations: Reservation[]
 ): BookingCalendarBehavior => {
   const daysInMonth = (year: number, month: number): number => {
-    return new Date(year, month, 0).getDate()
+    return new Date(year, month + 1, 0).getDate()
   }
 
   const mapToCalendar = (year: number, month: number): Day[] => {
     return [...Array(daysInMonth(year, month)).keys()].map((dayIndex) => {
-      const currentDayOfMonth = dayIndex + 1
-      const currentDay = new Date(year, month, currentDayOfMonth)
+      const dayOfMonth = dayIndex + 1
+      const currentDay = new Date(year, month, dayOfMonth)
 
       const isUnavailable = reservations.some((r) =>
         hasOverlapWith(r, currentDay)
       )
 
       return {
-        date: dayIndex + 1,
+        date: dayOfMonth,
         availability: isUnavailable
           ? AvailabilityState.Unavailable
           : AvailabilityState.Free,
