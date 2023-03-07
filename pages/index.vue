@@ -3,9 +3,6 @@
 <template>
   <div class="main-container">
     <div class="header-container">
-      <div class="title-container">
-        <h1>Casa Christina</h1>
-      </div>
       <div class="banner">
         <client-only>
           <carousel-section />
@@ -37,26 +34,27 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: $spacing-s;
   padding-bottom: $spacing-l;
 }
 .header-container {
   display: flex;
   flex-direction: column;
-
-  .title-container {
-    margin: $spacing-s auto;
-
-    .title {
-      height: 120px;
-    }
-  }
 }
 
 .content-container {
-  margin: auto;
+  margin: $spacing-s auto;
+  padding: $spacing-s;
+  background-color: #fdf7e888;
   width: 100%;
   max-width: 1000px;
+  outline: 5px solid transparent;
+  box-shadow: 0 0 10px rgba(66, 64, 64, 0.99);
+  background-image: linear-gradient(
+    30deg,
+    rgba(180, 104, 48, 0.63),
+    rgba(253, 247, 232, 0.74)
+  );
+  border-radius: 3px;
 }
 
 .content-section {
