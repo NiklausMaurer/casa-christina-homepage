@@ -18,7 +18,7 @@
         <FacilitiesSection />
       </div>
       <div class="content-section">
-        <h2>Buchung</h2>
+        <h2>Verfügbarkeit</h2>
         <old-booking-calendar />
       </div>
       <div class="content-section">
