@@ -45,7 +45,7 @@
   flex-direction: column;
 
   .title-container {
-    margin: $spacing-l auto;
+    margin: $spacing-s auto;
 
     .title {
       height: 120px;
