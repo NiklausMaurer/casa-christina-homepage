@@ -14,10 +14,13 @@ const svgName = `${props.icon}-svgrepo-com`
 </template>
 
 <style lang="scss" scoped>
+@import '/assets/styles/colors';
+
 .icon {
   color: transparent;
   height: 2em;
   width: 2em;
+  stroke: $font-color;
 
   :deep(svg) {
     height: 2em;
