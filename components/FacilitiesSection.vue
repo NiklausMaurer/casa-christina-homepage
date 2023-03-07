@@ -5,46 +5,48 @@
     <div class="section">
       <h3>Aussen</h3>
       <ul class="list">
-        <li>
-          <IconView class="style-text" icon="swimming-pool" /> Swimming Pool
-        </li>
-        <li><IconView class="style-text" icon="shower-facilities" /> Dusche</li>
-        <li><IconView class="style-text" icon="vision" /> Aussicht</li>
-        <li><IconView class="style-text" icon="barbeque-grill" /> Grill</li>
-        <li>
-          <IconView class="style-text" icon="car-key" /> Abschliessbarer
-          Parkplatz
-        </li>
-        <li><IconView class="style-text" icon="terrace" /> Balkon</li>
-        <li>
-          <IconView class="style-text" icon="terrace-chair" /> Aussenküche
-        </li>
+        <facilities-list-item icon="swimming-pool"
+          >Swimming Pool</facilities-list-item
+        >
+        <facilities-list-item icon="shower-facilities"
+          >Dusche</facilities-list-item
+        >
+        <facilities-list-item icon="vision">Aussicht</facilities-list-item>
+        <facilities-list-item icon="barbeque-grill">Grill</facilities-list-item>
+        <facilities-list-item icon="car-key"
+          >Abschliessbarer Parkplatz</facilities-list-item
+        >
+        <facilities-list-item icon="terrace">Balkon</facilities-list-item>
+        <facilities-list-item icon="terrace-chair"
+          >Aussenküche</facilities-list-item
+        >
       </ul>
     </div>
     <div class="section">
       <h3>Innen</h3>
       <ul class="list">
-        <li><IconView class="style-text" icon="shower-facilities" /> Dusche</li>
-        <li><IconView class="style-text" icon="wifi" /> Wifi</li>
-        <li><IconView class="style-text" icon="mirror-sink" /> Bad</li>
-        <li>
-          <IconView class="style-text" icon="tea-coffee" /> Kaffeemaschine
-        </li>
-        <li>
-          <IconView class="style-text" icon="oven" /> Gut eingerichtete Küche
-        </li>
-        <li>
-          <IconView class="style-text" icon="double-bed-sleep" /> 2 Zimmer mit
-          Doppelbett
-        </li>
+        <facilities-list-item icon="shower-facilities"
+          >Dusche</facilities-list-item
+        >
+        <facilities-list-item icon="wifi">Wifi</facilities-list-item>
+        <facilities-list-item icon="mirror-sink">Bad</facilities-list-item>
+        <facilities-list-item icon="tea-coffee"
+          >Kaffeemaschine</facilities-list-item
+        >
+        <facilities-list-item icon="oven"
+          >Gut eingerichtete Küche</facilities-list-item
+        >
+        <facilities-list-item icon="double-bed-sleep"
+          >2 Zimmer mit Doppelbett</facilities-list-item
+        >
       </ul>
     </div>
     <div class="section">
       <h3>Lage</h3>
       <ul class="list">
-        <li class="list">
-          <IconView class="style-text" icon="sea" /> Meer: 15 min entfernt
-        </li>
+        <facilities-list-item icon="sea"
+          >Meer: 15 min entfernt</facilities-list-item
+        >
       </ul>
     </div>
   </div>
@@ -59,13 +61,5 @@
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
-
-  li {
-    margin-bottom: $spacing-xs;
-  }
-
-  :deep(.icon) {
-    margin-right: $spacing-xs;
-  }
 }
 </style>
