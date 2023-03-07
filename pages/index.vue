@@ -10,7 +10,7 @@
       </div>
     </div>
     <div class="content-container">
-      <div class="content-section">
+      <div class="section">
         <h2>Ausstattung</h2>
         <FacilitiesSection />
       </div>
@@ -43,7 +43,6 @@
 
 .content-container {
   margin: $spacing-s auto;
-  padding: $spacing-s;
   background-color: #fdf7e888;
   width: 100%;
   max-width: 1000px;
@@ -59,5 +58,9 @@
 
 .content-section {
   width: 100%;
+}
+
+.section {
+  margin: $spacing-s;
 }
 </style>
