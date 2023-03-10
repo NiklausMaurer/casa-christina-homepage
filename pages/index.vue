@@ -50,7 +50,7 @@
   box-shadow: 0 0 10px rgba(66, 64, 64, 0.99);
   background-image: linear-gradient(
     30deg,
-    rgba(180, 104, 48, 0.63),
+    rgba(241, 218, 207, 0.63),
     rgba(253, 247, 232, 0.74)
   );
   border-radius: 3px;
