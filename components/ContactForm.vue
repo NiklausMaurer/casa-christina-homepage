@@ -25,6 +25,16 @@ const contactForm = useContactForm(useGetFormClient())
           placeholder="Email"
         />
         <FormKit
+          v-model="contactForm.model.arrivalDate.value"
+          label="Gewünschte Anreise"
+          type="date"
+        />
+        <FormKit
+          v-model="contactForm.model.departureDate.value"
+          label="Gewünschte Abreise"
+          type="date"
+        />
+        <FormKit
           v-model="contactForm.model.message.value"
           type="textarea"
           label="Nachricht"

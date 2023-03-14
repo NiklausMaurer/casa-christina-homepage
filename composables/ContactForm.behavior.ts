@@ -4,6 +4,8 @@ import { GetFormClientUse } from './GetFormClient.use'
 export const useContactForm = (getFormClient: GetFormClientUse) => {
   const email = ref<string>()
   const name = ref<string>()
+  const arrivalDate = ref<string>()
+  const departureDate = ref<string>()
   const message = ref<string>()
 
   const formStatusMessage = ref<string>()
@@ -11,9 +13,11 @@ export const useContactForm = (getFormClient: GetFormClientUse) => {
 
   const onSubmit = async (): Promise<void> => {
     const status = await getFormClient.postContactRequest({
-      email: email.value,
-      name: name.value,
-      message: message.value,
+      'E-Mail': email.value,
+      Name: name.value,
+      Anreisedatum: arrivalDate.value,
+      Abreisedatum: departureDate.value,
+      Nachricht: message.value,
     })
 
     if (status > 299) {
@@ -32,6 +36,8 @@ export const useContactForm = (getFormClient: GetFormClientUse) => {
     model: {
       email,
       name,
+      arrivalDate,
+      departureDate,
       message,
     },
   }
