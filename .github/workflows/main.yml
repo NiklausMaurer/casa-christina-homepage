@@ -26,5 +26,5 @@ jobs:
         uses: azure/CLI@v1
         with:
           inlineScript: |
-            az login --service-principal --username ${{ secrets.AZURE_SERVICE_PRINCIPAL_APPLICATION_ID }} --password ${{ secrets.AZURE_SERVICE_PRINCIPAL_KEY }} --tenant ${{ secrets.AZURE_SERVICE_PRINCIPAL_TENANT_ID }} --allow-no-subscriptions
-            az cdn endpoint purge --content-paths '/*' --resource-group casa-christina-production --profile-name casachristina-cdn --name casachristina
+            az login --service-principal --username "${{ secrets.AZURE_SERVICE_PRINCIPAL_APPLICATION_ID }}" --password "${{ secrets.AZURE_SERVICE_PRINCIPAL_KEY }}" --tenant "${{ secrets.AZURE_SERVICE_PRINCIPAL_TENANT_ID }}" --allow-no-subscriptions
+            az cdn endpoint purge --content-paths '/*' --resource-group casa-christina-production --profile-name casachristina-cdn --name casachristina --subscription "${{ secrets.AZURE_SUBSCRIPTION_ID }}"
