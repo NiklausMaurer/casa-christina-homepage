@@ -20,7 +20,7 @@ export const useContactForm = (getFormClient: GetFormClientUse) => {
       formStatusMessage.value = 'Es ist ein Fehler aufgetreten'
     } else {
       formStatusMessage.value =
-        'Ihre Anfrage wurde erfolgreich abgeschickt. Vielen Dank!'
+        'Ihre Anfrage wurde erfolgreich übermittelt. Vielen Dank! Wir werden uns in den nächsten Tagen bei Ihnen melden.'
       showForm.value = false
     }
   }
