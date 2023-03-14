@@ -22,3 +22,9 @@ jobs:
           inlineScript: |
             az storage blob delete-batch --account-name casachristinaproduction --source '$web' --connection-string="${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}"
             az storage blob upload-batch --account-name casachristinaproduction --source .output/public --destination '$web' --connection-string="${{ secrets.AZURE_STORAGE_CONNECTION_STRING }}"
+      - name: Purge CDN
+        uses: azure/CLI@v1
+        with:
+          inlineScript: |
+            az login --service-principal --username ${{ secrets.AZURE_SERVICE_PRINCIPAL_APPLICATION_ID }} --password ${{ secrets.AZURE_SERVICE_PRINCIPAL_KEY }} --tenant ${{ secrets.AZURE_SERVICE_PRINCIPAL_TENANT_ID }} --allow-no-subscriptions
+            az cdn endpoint purge --content-paths '/*' --resource-group casa-christina-production --profile-name casachristina-cdn --name casachristina
