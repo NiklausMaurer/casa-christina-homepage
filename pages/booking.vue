@@ -3,8 +3,8 @@ import AvailabilityCalendar from '../components/AvailabilityCalendar.vue'
 
 const reservations = [
   {
-    startDate: new Date('2023-03-01'),
-    endDate: new Date('2023-03-31'),
+    startDate: new Date('2023-03-05'),
+    endDate: new Date('2023-03-07'),
   },
 ]
 </script>

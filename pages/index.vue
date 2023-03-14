@@ -10,13 +10,19 @@
       </div>
     </div>
     <div class="content-container">
-      <div class="section">
+      <div class="content-section">
         <h2>Ausstattung</h2>
-        <FacilitiesSection />
+        <facilities-section />
       </div>
       <div class="content-section">
         <h2>Verfügbarkeit</h2>
         <old-booking-calendar />
+      </div>
+      <div class="content-section">
+        <h2>Kontakt</h2>
+        <client-only>
+          <contact-form />
+        </client-only>
       </div>
       <div class="content-section">
         <h2>Anreise</h2>
@@ -58,9 +64,5 @@
 
 .content-section {
   width: 100%;
-}
-
-.section {
-  margin: $spacing-s;
 }
 </style>

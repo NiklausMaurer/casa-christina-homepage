@@ -57,6 +57,10 @@
 <style scoped lang="scss">
 @import '/assets/styles/values';
 
+.container {
+  margin: $spacing-s;
+}
+
 .list {
   list-style-type: none;
   padding-left: 0;

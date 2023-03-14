@@ -2,7 +2,7 @@
 import { defineNuxtConfig } from 'nuxt/config'
 
 const nuxtConfig = defineNuxtConfig({
-  modules: ['@nuxt/image-edge', 'nuxt-icons'],
+  modules: ['@nuxt/image-edge', 'nuxt-icons', '@formkit/nuxt'],
   css: ['~/assets/styles/main.scss'],
   app: {
     head: {
