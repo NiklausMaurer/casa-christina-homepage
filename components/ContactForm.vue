@@ -1,35 +1,36 @@
 <script setup lang="ts">
 import '@formkit/themes/genesis'
-import { ref } from 'vue'
+import { useContactForm } from '../composables/ContactForm.behavior'
+import { useGetFormClient } from '../composables/GetFormClient.use'
 
-const email = ref<string>()
-const name = ref<string>()
-const message = ref<string>()
+const contactForm = useContactForm(useGetFormClient())
 </script>
 
 <template>
   <div class="container">
     <div>
-      <form
-        action="https://getform.io/f/e518cc71-8b90-4975-bcb7-f0f920819832"
-        method="POST"
-      >
+      <form @submit.prevent="contactForm.onSubmit">
         <FormKit
-          v-model="name"
+          v-model="contactForm.model.name.value"
           label="Name"
           type="text"
           required="required"
           placeholder="Name"
         />
         <FormKit
-          v-model="email"
+          v-model="contactForm.model.email.value"
           label="E-Mail"
           type="email"
           required="required"
           placeholder="Email"
         />
-        <FormKit v-model="message" type="textarea" label="Nachricht" />
+        <FormKit
+          v-model="contactForm.model.message.value"
+          type="textarea"
+          label="Nachricht"
+        />
         <FormKit type="submit" label="Absenden" />
+        <div>{{ contactForm.formStatusMessage.value }}</div>
       </form>
     </div>
   </div>
