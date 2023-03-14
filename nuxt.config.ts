@@ -42,6 +42,9 @@ const additionalConfig = {
         'https://res.cloudinary.com/dyh3pomep/image/upload/spanienferien.eu',
     },
   },
+  formkit: {
+    configFile: './formkit.config.ts',
+  },
 }
 
 export default {

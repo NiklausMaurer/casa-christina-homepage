@@ -27,11 +27,13 @@ const contactForm = useContactForm(useGetFormClient())
         <FormKit
           v-model="contactForm.model.arrivalDate.value"
           label="Gewünschte Anreise"
+          :validation="`date_after:${contactForm.inOneWeek}`"
           type="date"
         />
         <FormKit
           v-model="contactForm.model.departureDate.value"
           label="Gewünschte Abreise"
+          :validation="`date_after:${contactForm.model.arrivalDate.value}`"
           type="date"
         />
         <FormKit

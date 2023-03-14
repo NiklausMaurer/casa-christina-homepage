@@ -1,6 +1,11 @@
 import { ref } from 'vue'
 import { GetFormClientUse } from './GetFormClient.use'
 
+const calculateInOneWeek = (): Date => {
+  const now = new Date()
+  return new Date(now.setDate(now.getDate() + 7))
+}
+
 export const useContactForm = (getFormClient: GetFormClientUse) => {
   const email = ref<string>()
   const name = ref<string>()
@@ -8,6 +13,7 @@ export const useContactForm = (getFormClient: GetFormClientUse) => {
   const departureDate = ref<string>()
   const message = ref<string>()
 
+  const inOneWeek = calculateInOneWeek()
   const formStatusMessage = ref<string>()
   const showForm = ref<boolean>(true)
 
@@ -33,6 +39,7 @@ export const useContactForm = (getFormClient: GetFormClientUse) => {
     onSubmit,
     formStatusMessage,
     showForm,
+    inOneWeek,
     model: {
       email,
       name,
