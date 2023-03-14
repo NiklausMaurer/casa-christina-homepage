@@ -8,7 +8,7 @@ const contactForm = useContactForm(useGetFormClient())
 
 <template>
   <div class="container">
-    <div>
+    <div v-if="contactForm.showForm.value">
       <form @submit.prevent="contactForm.onSubmit">
         <FormKit
           v-model="contactForm.model.name.value"
@@ -30,8 +30,10 @@ const contactForm = useContactForm(useGetFormClient())
           label="Nachricht"
         />
         <FormKit type="submit" label="Absenden" />
-        <div>{{ contactForm.formStatusMessage.value }}</div>
       </form>
+    </div>
+    <div v-if="contactForm.formStatusMessage">
+      {{ contactForm.formStatusMessage.value }}
     </div>
   </div>
 </template>

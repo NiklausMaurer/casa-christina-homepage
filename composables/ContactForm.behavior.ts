@@ -1,25 +1,13 @@
 import { ref } from 'vue'
 import { GetFormClientUse } from './GetFormClient.use'
 
-export enum FormStatus {
-  Undefined,
-  Success,
-  Failure,
-}
-
 export const useContactForm = (getFormClient: GetFormClientUse) => {
   const email = ref<string>()
   const name = ref<string>()
   const message = ref<string>()
 
   const formStatusMessage = ref<string>()
-  const formStatus = ref<FormStatus>(FormStatus.Undefined)
-
-  const resetFormFields = () => {
-    email.value = ''
-    name.value = ''
-    message.value = ''
-  }
+  const showForm = ref<boolean>(true)
 
   const onSubmit = async (): Promise<void> => {
     const status = await getFormClient.postContactRequest({
@@ -30,18 +18,17 @@ export const useContactForm = (getFormClient: GetFormClientUse) => {
 
     if (status > 299) {
       formStatusMessage.value = 'Es ist ein Fehler aufgetreten'
-      formStatus.value = FormStatus.Failure
     } else {
       formStatusMessage.value =
         'Ihre Anfrage wurde erfolgreich abgeschickt. Vielen Dank!'
-      formStatus.value = FormStatus.Success
-      resetFormFields()
+      showForm.value = false
     }
   }
 
   return {
     onSubmit,
     formStatusMessage,
+    showForm,
     model: {
       email,
       name,
