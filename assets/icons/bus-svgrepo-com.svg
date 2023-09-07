@@ -1,2 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><path d="M4.37,17.74H1.5V6.26A1.92,1.92,0,0,1,3.41,4.35H19.92A1.93,1.93,0,0,1,21.82,6l.72,5.24v6.5H19.67"/><line x1="15.85" y1="17.74" x2="8.2" y2="17.74"/><circle cx="17.76" cy="17.74" r="1.91"/><circle cx="6.28" cy="17.74" r="1.91"/><line x1="4.37" y1="12" x2="23.5" y2="12"/><line x1="17.76" y1="7.22" x2="17.76" y2="12"/><line x1="12.02" y1="7.22" x2="12.02" y2="12"/><line x1="6.28" y1="7.22" x2="6.28" y2="12"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.37 17.7399H1.5V6.25995C1.50263 5.75419 1.7047 5.2699 2.06233 4.91227C2.41996 4.55465 2.90425 4.35257 3.41 4.34995H19.92C20.3817 4.35224 20.8273 4.51997 21.1759 4.82271C21.5245 5.12544 21.753 5.54312 21.82 5.99995L22.54 11.2399V17.7399H19.67" stroke="black" stroke-width="2"/>
+<path d="M15.85 17.7399H8.19995" stroke="black" stroke-width="2"/>
+<path d="M17.7601 19.65C18.815 19.65 19.6701 18.7948 19.6701 17.74C19.6701 16.6851 18.815 15.83 17.7601 15.83C16.7052 15.83 15.8501 16.6851 15.8501 17.74C15.8501 18.7948 16.7052 19.65 17.7601 19.65Z" stroke="black" stroke-width="2"/>
+<path d="M6.28012 19.65C7.33498 19.65 8.19012 18.7948 8.19012 17.74C8.19012 16.6851 7.33498 15.83 6.28012 15.83C5.22525 15.83 4.37012 16.6851 4.37012 17.74C4.37012 18.7948 5.22525 19.65 6.28012 19.65Z" stroke="black" stroke-width="2"/>
+<path d="M4.37012 11.9999H23.5001" stroke="black" stroke-width="2"/>
+<path d="M17.76 7.21994V11.9999" stroke="black" stroke-width="2"/>
+<path d="M12.02 7.21994V11.9999" stroke="black" stroke-width="2"/>
+<path d="M6.28003 7.21994V11.9999" stroke="black" stroke-width="2"/>
+</svg>

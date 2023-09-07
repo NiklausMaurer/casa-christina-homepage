@@ -1,2 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><polyline points="0.55 1.5 22.5 3.41 22.5 6.27 0.55 6.27"/><line x1="20.59" y1="6.27" x2="20.59" y2="22.5"/><line x1="23.45" y1="22.5" x2="0.55" y2="22.5"/><polyline points="4.36 12.96 5.32 18.68 5.32 22.5"/><polyline points="5.32 22.5 5.32 18.68 9.14 18.68 9.14 22.5"/><line x1="9.14" y1="15.82" x2="16.77" y2="15.82"/><line x1="12.95" y1="22.5" x2="12.95" y2="15.82"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_721)">
+<path d="M0.550049 1.49994L22.5 3.40994V6.26994H0.550049" stroke="black" stroke-width="2"/>
+<path d="M20.5901 6.26996V22.5" stroke="black" stroke-width="2"/>
+<path d="M23.45 22.4999H0.550049" stroke="black" stroke-width="2"/>
+<path d="M4.36011 12.96L5.32011 18.68V22.5" stroke="black" stroke-width="2"/>
+<path d="M5.32007 22.4999V18.6799H9.14007V22.4999" stroke="black" stroke-width="2"/>
+<path d="M9.13989 15.8199H16.7699" stroke="black" stroke-width="2"/>
+<path d="M12.95 22.4999V15.8199" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_1_721">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

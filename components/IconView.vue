@@ -18,13 +18,24 @@ const svgName = `${props.icon}-svgrepo-com`
 
 .icon {
   color: transparent;
-  height: 2em;
-  width: 2em;
-  stroke: $font-color;
+  border: $accent;
+  width: 100%;
+  height: 100%;
 
   :deep(svg) {
-    height: 2em;
-    width: 2em;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.style-text {
+  width: 1em;
+  height: 1em;
+
+  :deep(svg) {
+    width: 1em;
+    height: 1em;
+    position: relative;
   }
 }
 </style>

@@ -28,6 +28,11 @@
 
 <style scoped lang="scss">
 .container {
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
 }
 
 .embedded-calendar {
@@ -39,7 +44,7 @@
 @media only screen and (min-width: 626px) {
   #embedded-calendar-3-2 {
     height: 470px;
-    width: 626px;
+    width: 100%;
     display: block;
   }
 }

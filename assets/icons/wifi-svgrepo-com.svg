@@ -1,2 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="19" r="2"/><path d="M7.76,14.76a6,6,0,0,1,8.48,0"/><path d="M4.22,11.22a11,11,0,0,1,15.56,0"/><path d="M1,7.62a15.57,15.57,0,0,1,22,0"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 20.9999C13.1046 20.9999 14 20.1044 14 18.9999C14 17.8953 13.1046 16.9999 12 16.9999C10.8954 16.9999 10 17.8953 10 18.9999C10 20.1044 10.8954 20.9999 12 20.9999Z" stroke="black" stroke-width="2"/>
+<path d="M7.76001 14.7599C8.88501 13.6363 10.41 13.0052 12 13.0052C13.59 13.0052 15.115 13.6363 16.24 14.7599" stroke="black" stroke-width="2"/>
+<path d="M4.21997 11.2199C5.24148 10.1979 6.45434 9.38722 7.78926 8.8341C9.12418 8.28097 10.555 7.99628 12 7.99628C13.4449 7.99628 14.8758 8.28097 16.2107 8.8341C17.5456 9.38722 18.7585 10.1979 19.78 11.2199" stroke="black" stroke-width="2"/>
+<path d="M1 7.61992C3.91915 4.70588 7.87531 3.06921 12 3.06921C16.1247 3.06921 20.0808 4.70588 23 7.61992" stroke="black" stroke-width="2"/>
+</svg>

@@ -1,2 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><path d="M1.46,13.44H2.9a1.44,1.44,0,0,1,1.44,1.44v0A1.44,1.44,0,0,1,2.9,16.31H1.46a0,0,0,0,1,0,0V13.44a0,0,0,0,1,0,0Z"/><path d="M1.46,20.15V16.31h1a1.91,1.91,0,0,1,1.91,1.92v1.92"/><polyline points="10.08 19.19 7.21 19.19 7.21 13.44 10.08 13.44"/><line x1="9.13" y1="16.31" x2="7.21" y2="16.31"/><polyline points="12 20.15 12 13.44 12.96 13.44 14.88 19.19 15.83 19.19 15.83 12.48"/><line x1="17.75" y1="13.44" x2="23.5" y2="13.44"/><line x1="20.63" y1="20.15" x2="20.63" y2="13.44"/><line x1="23.5" y1="22.06" x2="0.5" y2="22.06"/><polyline points="22.54 10.56 12 1.94 1.46 10.56"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_706)">
+<path d="M1.45996 13.4399H2.89996C3.28187 13.4399 3.64814 13.5917 3.91819 13.8617C4.18825 14.1318 4.33996 14.498 4.33996 14.8799C4.33732 15.2601 4.18444 15.6238 3.91468 15.8917C3.64491 16.1596 3.28015 16.31 2.89996 16.3099H1.45996V13.4399Z" stroke="black" stroke-width="2"/>
+<path d="M1.45996 20.1499V16.3099H2.45996C2.71163 16.3099 2.96082 16.3597 3.1932 16.4563C3.42559 16.5529 3.63659 16.6945 3.81408 16.8729C3.99157 17.0513 4.13205 17.2631 4.22745 17.4959C4.32285 17.7288 4.37128 17.9783 4.36996 18.2299V20.1499" stroke="black" stroke-width="2"/>
+<path d="M10.08 19.1899H7.20996V13.4399H10.08" stroke="black" stroke-width="2"/>
+<path d="M9.12996 16.3099H7.20996" stroke="black" stroke-width="2"/>
+<path d="M12 20.15V13.44H12.96L14.88 19.19H15.83V12.48" stroke="black" stroke-width="2"/>
+<path d="M17.75 13.4399H23.5" stroke="black" stroke-width="2"/>
+<path d="M20.6299 20.1499V13.4399" stroke="black" stroke-width="2"/>
+<path d="M23.5 22.0599H0.5" stroke="black" stroke-width="2"/>
+<path d="M22.54 10.5599L12 1.93994L1.45996 10.5599" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_1_706">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,2 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><path d="M19.64,21.25c-2.54,2.55-8.38.83-13-3.84S.2,6.9,2.75,4.36L5.53,1.57,10.9,6.94l-2,2A2.18,2.18,0,0,0,8.9,12L12,15.1a2.18,2.18,0,0,0,3.07,0l2-2,5.37,5.37Z"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_722)">
+<path d="M19.64 21.2499C17.1 23.7999 11.26 22.0799 6.63997 17.4099C2.01997 12.7399 0.199968 6.89995 2.74997 4.35995L5.52997 1.56995L10.9 6.93995L8.89997 8.93994C8.49812 9.3478 8.27287 9.89738 8.27287 10.4699C8.27287 11.0425 8.49812 11.5921 8.89997 11.9999L12 15.0999C12.4083 15.5048 12.96 15.732 13.535 15.732C14.11 15.732 14.6617 15.5048 15.07 15.0999L17.07 13.0999L22.44 18.4699L19.64 21.2499Z" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_1_722">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

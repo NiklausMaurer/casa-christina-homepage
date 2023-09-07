@@ -6,21 +6,25 @@ defineProps<{
 </script>
 
 <template>
-  <li>
+  <div class="facilities-list-item-wrapper">
     <IconView
       v-for="i in count ?? 1"
       :key="i"
       class="style-text"
       :icon="icon"
     /><slot />
-  </li>
+  </div>
 </template>
 
 <style scoped lang="scss">
 @import '/assets/styles/values';
 
-li {
+.facilities-list-item-wrapper {
   margin-bottom: $spacing-xs;
+  font-size: 1rem;
+  > * {
+    font-size: 1.3rem;
+  }
 }
 
 :deep(.icon) {

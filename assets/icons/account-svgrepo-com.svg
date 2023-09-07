@@ -1,2 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="7.25" r="5.73"/><path d="M1.5,23.48l.37-2.05A10.3,10.3,0,0,1,12,13h0a10.3,10.3,0,0,1,10.13,8.45l.37,2.05"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_725)">
+<path d="M12 12.98C15.1646 12.98 17.73 10.4146 17.73 7.24999C17.73 4.0854 15.1646 1.51999 12 1.51999C8.83543 1.51999 6.27002 4.0854 6.27002 7.24999C6.27002 10.4146 8.83543 12.98 12 12.98Z" stroke="black" stroke-width="2"/>
+<path d="M1.5 23.48L1.87 21.43C2.3071 19.0624 3.55974 16.9228 5.41031 15.3828C7.26088 13.8428 9.59246 12.9997 12 13C14.4104 13.0006 16.7443 13.8465 18.5952 15.3905C20.4462 16.9345 21.6971 19.0788 22.13 21.45L22.5 23.5" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_1_725">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

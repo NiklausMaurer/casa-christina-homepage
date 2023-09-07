@@ -1,2 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><path d="M14.86,6.85V8.14a36,36,0,0,1-.47,5.77h0l-.8,4.77L13,22.5h-1.9l-.64-3.82-.8-4.77h0a36,36,0,0,1-.47-5.77V6.85a8.23,8.23,0,0,1,1.38-4.56h0A1.78,1.78,0,0,1,12,1.5h0a1.78,1.78,0,0,1,1.48.79h0A8.23,8.23,0,0,1,14.86,6.85Z"/><polygon points="10.41 18.68 11.04 22.5 6.27 22.5 6.27 19.64 10.41 18.68"/><polygon points="17.73 19.64 17.73 22.5 12.96 22.5 13.59 18.68 17.73 19.64"/><polyline points="9.61 13.91 1.5 15.82 1.5 12 9.14 8.18"/><polyline points="14.86 8.18 22.5 12 22.5 15.82 14.39 13.91"/><line x1="3.41" y1="8.18" x2="3.41" y2="11.05"/><line x1="20.59" y1="8.18" x2="20.59" y2="11.05"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_703)">
+<path d="M14.8599 6.85V8.14C14.8584 10.0728 14.7012 12.0024 14.3899 13.91L13.5899 18.68L12.9999 22.5H11.0999L10.4599 18.68L9.65994 13.91C9.34863 12.0024 9.19146 10.0728 9.18994 8.14V6.85C9.1903 5.22719 9.67043 3.6407 10.5699 2.29C10.7279 2.05372 10.9402 1.8587 11.189 1.72125C11.4377 1.58381 11.7158 1.50795 11.9999 1.5C12.2926 1.49988 12.5807 1.57191 12.8388 1.70971C13.097 1.8475 13.3172 2.04681 13.4799 2.29C14.3795 3.6407 14.8596 5.22719 14.8599 6.85Z" stroke="black" stroke-width="2"/>
+<path d="M10.41 18.6799L11.04 22.4999H6.27002V19.6399L10.41 18.6799Z" stroke="black" stroke-width="2"/>
+<path d="M17.73 19.6399V22.4999H12.96L13.59 18.6799L17.73 19.6399Z" stroke="black" stroke-width="2"/>
+<path d="M9.61 13.9099L1.5 15.8199V11.9999L9.14 8.17993" stroke="black" stroke-width="2"/>
+<path d="M14.8599 8.17993L22.4999 11.9999V15.8199L14.3899 13.9099" stroke="black" stroke-width="2"/>
+<path d="M3.40991 8.17993V11.0499" stroke="black" stroke-width="2"/>
+<path d="M20.5898 8.17993V11.0499" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_1_703">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,2 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><path d="M7.23,13.91h9.55a0,0,0,0,1,0,0v0A4.77,4.77,0,0,1,12,18.68h0a4.77,4.77,0,0,1-4.77-4.77v0A0,0,0,0,1,7.23,13.91Z"/><line x1="12" y1="22.5" x2="12" y2="18.68"/><path d="M10.09,13.91V11.05A1.91,1.91,0,0,1,12,9.14h0a1.91,1.91,0,0,1,1.91,1.91"/><line x1="5.32" y1="13.91" x2="18.68" y2="13.91"/><polyline points="15.82 16.77 22.5 16.77 22.5 1.5 1.5 1.5 1.5 16.77 8.18 16.77"/><line x1="6.27" y1="4.36" x2="4.36" y2="6.27"/><line x1="10.09" y1="5.32" x2="5.32" y2="10.09"/><line x1="0.55" y1="22.5" x2="23.45" y2="22.5"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_708)">
+<path d="M7.22998 13.9099H16.78C16.78 14.5372 16.6563 15.1582 16.4159 15.7376C16.1756 16.317 15.8233 16.8433 15.3793 17.2864C14.9354 17.7294 14.4083 18.0806 13.8285 18.3197C13.2486 18.5588 12.6272 18.6812 12 18.6799C10.7349 18.6799 9.52163 18.1774 8.62708 17.2828C7.73253 16.3883 7.22998 15.175 7.22998 13.9099Z" stroke="black" stroke-width="2"/>
+<path d="M12 22.4999V18.6799" stroke="black" stroke-width="2"/>
+<path d="M10.0901 13.91V11.05C10.0901 10.5434 10.2913 10.0576 10.6495 9.69938C11.0077 9.34118 11.4935 9.13995 12.0001 9.13995C12.5067 9.13995 12.9925 9.34118 13.3507 9.69938C13.7089 10.0576 13.9101 10.5434 13.9101 11.05" stroke="black" stroke-width="2"/>
+<path d="M5.32007 13.9099H18.6801" stroke="black" stroke-width="2"/>
+<path d="M15.82 16.7699H22.5V1.49994H1.5V16.7699H8.18" stroke="black" stroke-width="2"/>
+<path d="M6.27011 4.35992L4.36011 6.26992" stroke="black" stroke-width="2"/>
+<path d="M10.0901 5.31995L5.32007 10.0899" stroke="black" stroke-width="2"/>
+<path d="M0.550049 22.4999H23.45" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_1_708">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,2 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><path d="M1.48,8.18H15.8a0,0,0,0,1,0,0v7.24A7.08,7.08,0,0,1,8.72,22.5H8.56a7.08,7.08,0,0,1-7.08-7.08V8.18a0,0,0,0,1,0,0Z"/><ellipse cx="19.14" cy="12.88" rx="3.34" ry="3.42"/><line x1="0.52" y1="22.5" x2="16.75" y2="22.5"/><path d="M3.39,1.5c1.65,1.91-.7,2.86.95,4.77"/><path d="M8.16,1.5c1.65,1.91-.7,2.86.95,4.77"/><path d="M12.93,1.5c1.66,1.91-.7,2.86,1,4.77"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_723)">
+<path d="M1.47998 8.17993H15.8V15.4199C15.8 17.2977 15.0541 19.0985 13.7263 20.4262C12.3985 21.754 10.5977 22.4999 8.71998 22.4999H8.55998C6.68225 22.4999 4.88142 21.754 3.55366 20.4262C2.22591 19.0985 1.47998 17.2977 1.47998 15.4199V8.17993Z" stroke="black" stroke-width="2"/>
+<path d="M19.14 16.3C20.9847 16.3 22.48 14.7688 22.48 12.88C22.48 10.9911 20.9847 9.45996 19.14 9.45996C17.2954 9.45996 15.8 10.9911 15.8 12.88C15.8 14.7688 17.2954 16.3 19.14 16.3Z" stroke="black" stroke-width="2"/>
+<path d="M0.52002 22.5H16.75" stroke="black" stroke-width="2"/>
+<path d="M3.38989 1.5C5.03989 3.41 2.68989 4.36 4.33989 6.27" stroke="black" stroke-width="2"/>
+<path d="M8.15991 1.5C9.80991 3.41 7.45991 4.36 9.10991 6.27" stroke="black" stroke-width="2"/>
+<path d="M12.9299 1.5C14.5899 3.41 12.2299 4.36 13.9299 6.27" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_1_723">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

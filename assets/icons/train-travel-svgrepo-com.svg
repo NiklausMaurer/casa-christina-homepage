@@ -1,2 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><path d="M.5,6.25H13.92a8.62,8.62,0,0,1,8.62,8.62h0a2.88,2.88,0,0,1-2.87,2.87H.5"/><polyline points="22.54 12.96 13.92 12.96 13.92 6.25"/><polyline points="10.08 9.13 10.08 12.96 6.25 12.96 6.25 9.13"/><polyline points="6.25 9.13 6.25 12.96 2.42 12.96 2.42 9.13"/><line x1="2.42" y1="12.96" x2="0.5" y2="12.96"/><line x1="17.75" y1="17.75" x2="19.67" y2="21.58"/><line x1="13.92" y1="17.75" x2="15.83" y2="21.58"/><line x1="10.08" y1="17.75" x2="12" y2="21.58"/><line x1="6.25" y1="17.75" x2="8.17" y2="21.58"/><line x1="2.42" y1="17.75" x2="4.33" y2="21.58"/><line x1="0.5" y1="21.58" x2="23.5" y2="21.58"/><line x1="8.17" y1="2.42" x2="10.08" y2="6.25"/><line x1="3.38" y1="2.42" x2="11.04" y2="2.42"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M0.5 6.25H13.92C15.052 6.25 16.1729 6.47296 17.2187 6.90616C18.2646 7.33935 19.2148 7.9743 20.0153 8.77474C20.8157 9.57518 21.4506 10.5254 21.8838 11.5713C22.317 12.6171 22.54 13.738 22.54 14.87C22.5374 15.6304 22.2341 16.3588 21.6965 16.8965C21.1588 17.4341 20.4304 17.7374 19.67 17.74H0.5" stroke="black" stroke-width="2"/>
+<path d="M22.5399 12.96H13.9199V6.25" stroke="black" stroke-width="2"/>
+<path d="M10.08 9.13V12.96H6.25V9.13" stroke="black" stroke-width="2"/>
+<path d="M6.25017 9.13V12.96H2.42017V9.13" stroke="black" stroke-width="2"/>
+<path d="M2.42 12.9601H0.5" stroke="black" stroke-width="2"/>
+<path d="M17.75 17.75L19.67 21.58" stroke="black" stroke-width="2"/>
+<path d="M13.9199 17.75L15.8299 21.58" stroke="black" stroke-width="2"/>
+<path d="M10.0801 17.75L12.0001 21.58" stroke="black" stroke-width="2"/>
+<path d="M6.25 17.75L8.17 21.58" stroke="black" stroke-width="2"/>
+<path d="M2.42017 17.75L4.33017 21.58" stroke="black" stroke-width="2"/>
+<path d="M0.5 21.5801H23.5" stroke="black" stroke-width="2"/>
+<path d="M8.16992 2.42004L10.0799 6.25004" stroke="black" stroke-width="2"/>
+<path d="M3.38013 2.42004H11.0401" stroke="black" stroke-width="2"/>
+</svg>

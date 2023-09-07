@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <div class="container">
+  <div class="facilities-section-containter">
     <div class="section">
       <h3>Aussen</h3>
       <ul class="list">
@@ -57,15 +57,23 @@
 <style scoped lang="scss">
 @import '/assets/styles/values';
 
-.container {
-  margin: $spacing-s;
+.facilities-section-containter {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-s;
 }
 
 .list {
   list-style-type: none;
-  padding-left: 0;
+  padding: 0;
   columns: 2;
+  column-gap: 16px;
   -webkit-columns: 2;
   -moz-columns: 2;
+  @media (max-width: 1200px) {
+    columns: 1;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+  }
 }
 </style>

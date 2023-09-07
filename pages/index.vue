@@ -2,29 +2,32 @@
 
 <template>
   <div class="main-container">
-    <div class="header-container">
-      <div class="banner">
-        <client-only>
-          <carousel-section />
-        </client-only>
-      </div>
+    <div class="banner">
+      <object class="logo" data="/images/casa-christiana.svg" />
+      <client-only>
+        <carousel-section />
+      </client-only>
     </div>
     <div class="content-container">
       <div class="content-section">
+        <object class="divider" data="/images/divider.svg" />
         <h2>Ausstattung</h2>
         <facilities-section />
       </div>
       <div class="content-section">
+        <object class="divider" data="/images/divider.svg" />
         <h2>Verfügbarkeit</h2>
         <old-booking-calendar />
       </div>
       <div class="content-section">
+        <object class="divider" data="/images/divider.svg" />
         <h2>Kontakt</h2>
         <client-only>
           <contact-form />
         </client-only>
       </div>
       <div class="content-section">
+        <object class="divider" data="/images/divider.svg" />
         <h2>Anreise</h2>
         <location-map />
       </div>
@@ -37,32 +40,61 @@
 @import '/assets/styles/values';
 
 .main-container {
-  margin: 0;
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   padding-bottom: $spacing-l;
+  @media (max-width: 860px) {
+    flex-wrap: wrap;
+    overflow: auto;
+  }
 }
-.header-container {
-  display: flex;
-  flex-direction: column;
+
+.banner {
+  height: 100vh;
+  width: calc(100vh / 1.38461538);
+  position: relative;
+  flex: 0 1 auto;
+  overflow: hidden;
+  @media (min-width: 1400px) {
+    flex: 0 0 auto;
+  }
+  @media (max-width: 860px) {
+    height: 60vh;
+    min-height: 400px;
+    width: 100vw;
+  }
+  & .logo {
+    height: 12vh;
+    min-height: 80px;
+    position: absolute;
+    bottom: 8vh;
+    left: 0;
+    z-index: 9;
+  }
+}
+
+.divider {
+  margin: 0 0 $spacing-m 0;
 }
 
 .content-container {
-  margin: $spacing-s auto;
-  background-color: #fdf7e888;
-  width: 100%;
-  max-width: 1000px;
-  outline: 5px solid transparent;
-  box-shadow: 0 0 10px rgba(66, 64, 64, 0.99);
-  background-image: linear-gradient(
-    30deg,
-    rgba(241, 218, 207, 0.63),
-    rgba(253, 247, 232, 0.74)
-  );
-  border-radius: 3px;
-}
-
-.content-section {
-  width: 100%;
+  flex: 1 3 auto;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #fdf7e8;
+  padding: $spacing-l;
+  @media (max-width: 860px) {
+    padding: $spacing-m;
+    overflow: hidden;
+    height: auto;
+  }
+  .content-section {
+    width: 100%;
+    max-width: 800px;
+    padding: 0 0 $spacing-l 0;
+  }
 }
 </style>

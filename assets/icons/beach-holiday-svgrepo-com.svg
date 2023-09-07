@@ -1,2 +1,15 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><line x1="0.5" y1="22.55" x2="23.5" y2="22.55"/><polyline points="23.5 18.71 12 18.71 8.17 14.88"/><line x1="12.96" y1="22.55" x2="12.96" y2="18.71"/><line x1="20.63" y1="22.55" x2="20.63" y2="18.71"/><line x1="8.22" y1="8.47" x2="3.04" y2="22.73"/><path d="M9,1.81h.82A6.79,6.79,0,0,1,16.6,8.6v.08a0,0,0,0,1,0,0H2.2a0,0,0,0,1,0,0V8.6A6.79,6.79,0,0,1,9,1.81Z" transform="translate(2.36 -2.9) rotate(20)"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_727)">
+<path d="M0.5 22.5499H23.5" stroke="black" stroke-width="2"/>
+<path d="M23.4999 18.71H11.9999L8.16992 14.88" stroke="black" stroke-width="2"/>
+<path d="M12.96 22.55V18.71" stroke="black" stroke-width="2"/>
+<path d="M20.6299 22.55V18.71" stroke="black" stroke-width="2"/>
+<path d="M8.22004 8.46997L3.04004 22.73" stroke="black" stroke-width="2"/>
+<path d="M10.198 1.87897L10.9686 2.15942C12.6582 2.77724 14.0337 4.04038 14.7928 5.67147C15.5519 7.30255 15.6327 9.16824 15.0174 10.8588L14.99 10.934L1.45842 6.00892L1.48579 5.93374C1.79104 5.09505 2.25866 4.32477 2.86187 3.66696C3.46509 3.00914 4.19208 2.47671 5.00125 2.10011C5.81043 1.72351 6.68591 1.51014 7.57762 1.47219C8.46933 1.43425 9.35977 1.57247 10.198 1.87897Z" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_1_727">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

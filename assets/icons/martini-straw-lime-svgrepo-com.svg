@@ -1,2 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
-<svg width="800px" height="800px" viewBox="0 0 24 24" id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg"><polygon points="12.02 14.86 5.34 6.27 18.7 6.27 12.02 14.86"/><path d="M9,6.27a3.3,3.3,0,0,0,.13-.95A3.82,3.82,0,1,0,5.34,9.14a3.75,3.75,0,0,0,2-.58"/><polyline points="15.84 6.27 17.75 1.5 23.48 1.5"/><line x1="12.02" y1="22.5" x2="12.02" y2="14.86"/><line x1="16.8" y1="22.5" x2="7.25" y2="22.5"/></svg>
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_710)">
+<path d="M12.0201 14.8599L5.34009 6.26993H18.7001L12.0201 14.8599Z" stroke="black" stroke-width="2"/>
+<path d="M8.99999 6.26994C9.08935 5.9613 9.13314 5.64125 9.12999 5.31995C9.12997 4.56315 8.90515 3.82341 8.48406 3.19458C8.06298 2.56575 7.46459 2.07617 6.76483 1.78795C6.06507 1.49972 5.29546 1.42585 4.55364 1.57569C3.81183 1.72553 3.13124 2.09234 2.59822 2.62958C2.06519 3.16683 1.70376 3.85029 1.55977 4.59326C1.41578 5.33623 1.49572 6.10523 1.78946 6.8027C2.08319 7.50017 2.57747 8.09468 3.2096 8.51079C3.84173 8.92691 4.58322 9.14589 5.33999 9.13995C6.04805 9.1393 6.74145 8.93822 7.33999 8.55995" stroke="black" stroke-width="2"/>
+<path d="M15.8401 6.26994L17.7501 1.49994H23.4801" stroke="black" stroke-width="2"/>
+<path d="M12.02 22.5V14.86" stroke="black" stroke-width="2"/>
+<path d="M16.8 22.4999H7.25" stroke="black" stroke-width="2"/>
+</g>
+<defs>
+<clipPath id="clip0_1_710">
+<rect width="24" height="24" fill="white"/>
+</clipPath>
+</defs>
+</svg>

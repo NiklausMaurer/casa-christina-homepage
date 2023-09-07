@@ -1,24 +1,35 @@
 @import '/assets/styles/colors';
 @import '/assets/styles/values';
+@import '/assets/styles/browser-reset';
+
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
 
 body {
-    margin: 0 !important;
-    background-color: $off-white;
-    font-family: "Helvetica Neue", sans-serif;
-    color: $font-color;
+    background-color: $beige;
+    font-family: "Source Sans", sans-serif;
+    color: $primary;
 }
+
 h1 {
-    text-align: center;
-    margin: $spacing-s;
-    font-size: 70px;
-    font-weight: lighter;
+    text-align: left;
+    font-size: 3rem;
 }
 
 h2 {
-    text-align: center;
-    margin: $spacing-s;
-    font-size: 40px;
-    font-weight: lighter;
+    font-family: 'Martel Sans', sans-serif;
+    text-align: left;
+    font-size: 2rem;
+    color: $accent;
+    margin-bottom: $spacing-s;
+}
+
+h3 {
+    font-family: 'Martel Sans', sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 1.2rem;
+    color: $primary;
+    margin-bottom: $spacing-s;
 }
 
 .material-symbols-outlined {
