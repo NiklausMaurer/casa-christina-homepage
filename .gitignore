@@ -108,3 +108,6 @@ cache
 
 # Build output
 /.output
+# Firebase
+firebase-debug.log
+.firebase/
