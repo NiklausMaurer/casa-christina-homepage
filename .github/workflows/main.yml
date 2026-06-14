@@ -18,6 +18,12 @@ jobs:
         run: npm run verify
       - name: Build
         run: npm run generate
+      # firebase-tools requires Node >=20; the build above pins the older
+      # project Node via .nvmrc, so switch the runtime before deploying.
+      - name: Use Node.js 20 for Firebase CLI
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
       - name: Deploy to Firebase Hosting
         uses: FirebaseExtended/action-hosting-deploy@v0
         with:
