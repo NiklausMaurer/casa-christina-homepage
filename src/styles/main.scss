@@ -1,6 +1,6 @@
 // Color and spacing variables are injected globally via vite.config.ts.
 // The Martel Sans web font is loaded via <link> in index.html.
-@import './browser-reset';
+@use './browser-reset';
 
 body {
     background-color: $beige;

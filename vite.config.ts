@@ -14,9 +14,7 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         // Make color/spacing variables available to every <style lang="scss"> block.
-        additionalData: '@import "@/styles/colors";\n@import "@/styles/values";\n',
-        // The variable partials still use @import; silence Dart Sass's deprecation noise.
-        silenceDeprecations: ['import'],
+        additionalData: '@use "@/styles/colors" as *;\n@use "@/styles/values" as *;\n',
       },
     },
   },
