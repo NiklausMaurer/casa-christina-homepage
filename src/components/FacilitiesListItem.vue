@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import IconView from './IconView.vue'
+
 defineProps<{
   icon: string
   count?: number | undefined
@@ -17,8 +19,6 @@ defineProps<{
 </template>
 
 <style scoped lang="scss">
-@import '/assets/styles/values';
-
 .facilities-list-item-wrapper {
   margin-bottom: $spacing-xs;
   font-size: 1rem;

@@ -1,8 +1,6 @@
-@import '/assets/styles/colors';
-@import '/assets/styles/values';
-@import '/assets/styles/browser-reset';
-
-@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@900&display=swap');
+// Color and spacing variables are injected globally via vite.config.ts.
+// The Martel Sans web font is loaded via <link> in index.html.
+@import './browser-reset';
 
 body {
     background-color: $beige;

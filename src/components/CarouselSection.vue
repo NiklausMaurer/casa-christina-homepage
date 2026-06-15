@@ -27,36 +27,32 @@ import '@splidejs/vue-splide/css'
     }"
   >
     <SplideSlide>
-      <NuxtImg
-        provider="cloudinary"
-        src="/carousel/pool-1_the4xf.png"
+      <img
+        src="/images/carousel/pool-1.png"
         width="494"
         height="684"
         alt="Pool 1"
       />
     </SplideSlide>
     <SplideSlide>
-      <NuxtImg
-        provider="cloudinary"
-        src="/carousel/pool-2_olkvet.png"
+      <img
+        src="/images/carousel/pool-2.png"
         width="494"
         height="684"
         alt="Pool 2"
       />
     </SplideSlide>
     <SplideSlide>
-      <NuxtImg
-        provider="cloudinary"
-        src="/carousel/pool-3_huzpef.png"
+      <img
+        src="/images/carousel/pool-3.png"
         width="494"
         height="684"
         alt="Pool 3"
       />
     </SplideSlide>
     <SplideSlide>
-      <NuxtImg
-        provider="cloudinary"
-        src="/carousel/kitchen-outside_oue4ze"
+      <img
+        src="/images/carousel/kitchen-outside.png"
         width="494"
         height="684"
         alt="Kitchen Outside"
@@ -66,8 +62,6 @@ import '@splidejs/vue-splide/css'
 </template>
 
 <style scoped lang="scss">
-@import '/assets/styles/colors';
-
 .spline {
   :deep(.splide__track, .splide__list) {
     background: $accent;

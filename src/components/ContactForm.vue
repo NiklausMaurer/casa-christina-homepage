@@ -55,9 +55,6 @@ const contactForm = useContactForm(useGetFormClient())
 </template>
 
 <style scoped lang="scss">
-@import '/assets/styles/values';
-@import '/assets/styles/colors';
-
 .form-container {
   .form-wrapper {
     display: flex;

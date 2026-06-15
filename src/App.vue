@@ -1,44 +1,55 @@
-<script lang="js"></script>
+<script setup lang="ts">
+import { defineAsyncComponent } from 'vue'
+import ClientOnly from './components/ClientOnly.vue'
+import FacilitiesSection from './components/FacilitiesSection.vue'
+import OldBookingCalendar from './components/OldBookingCalendar.vue'
+import LocationMap from './components/LocationMap.vue'
+
+// Splide (carousel) and FormKit (contact form) only run in the browser.
+const CarouselSection = defineAsyncComponent(
+  () => import('./components/CarouselSection.vue')
+)
+const ContactForm = defineAsyncComponent(
+  () => import('./components/ContactForm.vue')
+)
+</script>
 
 <template>
   <div class="main-container">
     <div class="banner">
       <object class="logo" data="/images/casa-christiana.svg" />
-      <client-only>
-        <carousel-section />
-      </client-only>
+      <ClientOnly>
+        <CarouselSection />
+      </ClientOnly>
     </div>
     <div class="content-container">
       <div class="content-section">
         <object class="divider" data="/images/divider.svg" />
         <h2>Ausstattung</h2>
-        <facilities-section />
+        <FacilitiesSection />
       </div>
       <div class="content-section">
         <object class="divider" data="/images/divider.svg" />
         <h2>Verfügbarkeit</h2>
-        <old-booking-calendar />
+        <OldBookingCalendar />
       </div>
       <div class="content-section">
         <object class="divider" data="/images/divider.svg" />
         <h2>Kontakt</h2>
-        <client-only>
-          <contact-form />
-        </client-only>
+        <ClientOnly>
+          <ContactForm />
+        </ClientOnly>
       </div>
       <div class="content-section">
         <object class="divider" data="/images/divider.svg" />
         <h2>Anreise</h2>
-        <location-map />
+        <LocationMap />
       </div>
     </div>
   </div>
 </template>
 
 <style scoped lang="scss">
-@import '/assets/styles/colors';
-@import '/assets/styles/values';
-
 .main-container {
   height: 100vh;
   width: 100vw;

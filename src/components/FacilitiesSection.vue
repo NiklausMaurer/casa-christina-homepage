@@ -1,4 +1,6 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import FacilitiesListItem from './FacilitiesListItem.vue'
+</script>
 
 <template>
   <div class="facilities-section-containter">
@@ -55,8 +57,6 @@
 </template>
 
 <style scoped lang="scss">
-@import '/assets/styles/values';
-
 .facilities-section-containter {
   display: flex;
   flex-direction: column;
